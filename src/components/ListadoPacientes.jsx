@@ -17,7 +17,7 @@ function ListadoPacientes({pacientes}) {
     </p>
 
     {pacientes.map( (paciente) => (
-      <Paciente key={paciente.id} paciente ={paciente}></Paciente>
+      <Paciente key={paciente.id} paciente ={paciente} setPaciente= {setPaciente}></Paciente>
     ))}
 </div>
     ): (
